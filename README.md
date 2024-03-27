@@ -1,0 +1,1 @@
+# PatikaDev_VeriYapilariveAlgoritmalar_projeler
