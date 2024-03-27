@@ -19,6 +19,7 @@ a) Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 b) Big-O gösterimi:
 
 `O(n^n)`
+
 c) Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
 ```
 Average case: Aradığımız sayının ortada olması
