@@ -39,7 +39,7 @@ d) [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazın
 ```
 # Merge Sort
 `[16,21,11,8,12,22]`
-Yukarıdaki dizinin merge sort türüne göre aşamalarını yazınız:
+a) Yukarıdaki dizinin merge sort türüne göre aşamalarını yazınız:
 ```
                       [16,21,11]                             [8,12,22]
                     /           \                         /           \
@@ -53,6 +53,8 @@ Yukarıdaki dizinin merge sort türüne göre aşamalarını yazınız:
 
                                     [8,11,12,16,21,22]                               
 ```
-Big-O gösterimini yazınız:
+b) Big-O gösterimini yazınız:
 
 `O(nlogn)`
+
+# Binary Search Tree
