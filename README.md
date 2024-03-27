@@ -1,4 +1,6 @@
 # PatikaDev_VeriYapilariveAlgoritmalar_projeler
+# Selection Sort
+
 `[22,27,16,2,18,6]`
 
 a) Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
@@ -35,3 +37,22 @@ d) [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazın
 [2,3,4,5,7,9,8,15,6] 5 ile 8 yer değişti
 [2,3,4,5,6,9,8,15,7] 6 ile 7 yer değişti
 ```
+# Merge Sort
+`[16,21,11,8,12,22]`
+Yukarıdaki dizinin merge sort türüne göre aşamalarını yazınız:
+```
+                      [16,21,11]                             [8,12,22]
+                    /           \                         /           \
+                  [16,21]       [11]                    [8,12]        [22]
+                /      \           \                  /      \           \
+              [16]  -  [21]        [11]             [8]  -   [12]        [22]   
+                \      /           /                 \       /             /
+                [16,21]         [11]                  [8,12]            [22]
+                     \           /                         \           /
+                      [11,16,21]                             [8,12,22]
+
+                                    [8,11,12,16,21,22]                               
+```
+Big-O gösterimini yazınız:
+
+`O(nlogn)`
