@@ -18,11 +18,11 @@ a) Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 11: [2,16,6,18,22,27]  // 18 ile 6 yer değişti
 12: [2,6,16,18,22,27]  // 16 ile 6 yer değişti
 ```
-b) Big-O gösterimi:
+b) Big-O gösterimi.
 
 `O(n^n)`
 
-c) Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+c) Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız.
 ```
 Average case: Aradığımız sayının ortada olması
 Worst case: Aradığımız sayının sonda olması
@@ -39,7 +39,7 @@ d) [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazın
 ```
 # Merge Sort
 `[16,21,11,8,12,22]`
-a) Yukarıdaki dizinin merge sort türüne göre aşamalarını yazınız:
+a) Yukarıdaki dizinin merge sort türüne göre aşamalarını yazınız.
 ```
                       [16,21,11]                             [8,12,22]
                     /           \                         /           \
@@ -53,8 +53,23 @@ a) Yukarıdaki dizinin merge sort türüne göre aşamalarını yazınız:
 
                                     [8,11,12,16,21,22]                               
 ```
-b) Big-O gösterimini yazınız:
+b) Big-O gösterimini yazınız.
 
 `O(nlogn)`
 
 # Binary Search Tree
+[7,5, 1, 8, 3, 6, 0, 9, 4, 2]
+a) Yukarıdaki dizinin Binary-Search-Tree aşamalarını yazınız. Örnek: root x'dir. Root'un sağından y bulunur. Solunda z bulunur vb.
+```
+Root: 5
+
+                          5
+                      /        \
+                    1            8
+                  /   \        /   \
+                 0      4     7      9    
+                       /     /       
+                     3      6
+                    /       
+                   2                   
+```
